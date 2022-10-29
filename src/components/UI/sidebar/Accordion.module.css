@@ -1,6 +1,16 @@
+.sidebar {
+  --sidebar-heading: rgba(231, 111, 81, 0.495);
+}
+.sidebar__heading {
+  padding-top: 8rem;
+  width: 100%;
+  background: linear-gradient(to top, var(--sidebar-heading), var(--hero));
+}
+
 .accordion {
   min-width: 17vw;
   margin: 2.55rem;
+  position: relative;
 }
 
 .accordion__title {
@@ -32,6 +42,14 @@
 
 .accordion__content--img {
   width: 50%;
+}
+
+.sidebar__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, var(--sidebar-heading), var(--hero));
+  height: 100px;
 }
 
 @media screen and (max-width: 700px) {
