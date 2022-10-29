@@ -27,18 +27,19 @@ main {
   width: 100%;
   grid-area: main;
   height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--main);
 }
 
 .sidebar {
-  width: 100%;
   grid-area: sidebar;
   background-color: var(--nav);
   position: relative;
 }
 
 footer {
-  grid-area: footer;
   height: 500px;
   background-color: var(--nav);
 }
