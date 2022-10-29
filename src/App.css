@@ -1,5 +1,5 @@
 :root {
-  --sidebar: #2a9d8f;
+  --teal: #2a9d8f;
   --nav: #264653;
   --main: #e9c46a;
   --nav-text: #e9c46a;
@@ -13,6 +13,7 @@
     'main main main main main sidebar'
     'main main main main main sidebar'
     'footer footer footer footer footer footer';
+  width: 100%;
 }
 
 header {
@@ -23,14 +24,17 @@ header {
 }
 
 main {
+  width: 80vw;
   grid-area: main;
   height: 120vh;
   background-color: var(--main);
 }
 
 .sidebar {
+  width: 100%;
   grid-area: sidebar;
-  background-color: var(--sidebar);
+  background-color: var(--nav);
+  position: relative;
 }
 
 footer {

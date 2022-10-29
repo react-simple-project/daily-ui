@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30%;
+  align-items: center;
+}
+
+.portfolio {
+  color: black;
+  background-color: beige;
+  width: 50px;
+  height: 50px;
+}
+
+.twitter {
+  background-color: rgb(164, 164, 63);
+  width: 50px;
+  height: 50px;
+}
+
+.github {
+  background-color: rgb(168, 168, 63);
+  width: 50px;
+  height: 50px;
+}
+
+.linked-in {
+  background-color: rgb(137, 137, 92);
+  width: 50px;
+  height: 50px;
+}

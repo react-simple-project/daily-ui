@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__heading {
+  width: 100%;
+  text-align: center;
+  top: 30%;
+  position: absolute;
+  font-size: 10.5rem;
+  padding: 30px;
+  z-index: 1;
+}
+
+.hero__caption {
+  font-size: 3rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.hero__img {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.hero__img > img {
+  width: 100%;
+}
+
+.hero__img::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#e76f51a1, #e76f51);
+}
