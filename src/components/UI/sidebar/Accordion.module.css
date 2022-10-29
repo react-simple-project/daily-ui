@@ -1,0 +1,45 @@
+.accordion {
+  min-width: 17vw;
+  margin: 2.55rem;
+}
+
+.accordion__title {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: var(--nav);
+  color: var(--nav-text);
+}
+
+.accordion__title:hover {
+  background-color: #062025;
+}
+
+.accordion__title,
+.accordion__content {
+  padding: 1rem;
+}
+
+.accordion__content {
+  background-color: var(--main);
+  color: var(--nav);
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.accordion__content--img {
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}
