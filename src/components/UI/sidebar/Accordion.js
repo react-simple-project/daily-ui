@@ -6,7 +6,7 @@ export default function Accordion() {
 
   const accordionData = {
     title: 'Project 001',
-    content: <img className={styles['accordion__content--img']} alt='test' src='https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2lnbiUyMHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' ></img>
+    content: <img className={styles['accordion__content--img']} alt='project 001 thumbnail' src='https://github.com/tm-LBenson/daily-ui/blob/main/public/assets/project-001.png?raw=true' ></img>
   };
 
   const { title, content } = accordionData;
