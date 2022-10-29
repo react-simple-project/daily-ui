@@ -1,0 +1,40 @@
+:root {
+  --sidebar: #2a9d8f;
+  --nav: #264653;
+  --main: #e9c46a;
+  --nav-text: #e9c46a;
+  --hero: #e76f51;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header '
+    'main main main main main sidebar'
+    'main main main main main sidebar'
+    'footer footer footer footer footer footer';
+}
+
+header {
+  grid-area: header;
+  height: 80vh;
+  background-color: var(--hero);
+  color: var(--nav-text);
+}
+
+main {
+  grid-area: main;
+  height: 120vh;
+  background-color: var(--main);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--sidebar);
+}
+
+footer {
+  grid-area: footer;
+  height: 500px;
+  background-color: var(--nav);
+}
