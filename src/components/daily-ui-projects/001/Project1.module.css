@@ -49,6 +49,14 @@ button {
   border-radius: 15px;
   background-color: rgba(50, 170, 36, 0.736);
   padding: 15px;
+  transition: all ease-in 0.22s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(49, 170, 36);
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.505);
+  transform: translateY(-4px);
 }
 
 .form--wrapper {
