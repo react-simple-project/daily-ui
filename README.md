@@ -1,7 +1,7 @@
 # Daily UI
 
 ## Live View
-[Live on Netlify](lbenson-daily-ui.netlify.app)
+[Live on Netlify](https://lbenson-daily-ui.netlify.app/)
 
 # Getting Started with Create React App
 
