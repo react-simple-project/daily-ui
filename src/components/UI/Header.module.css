@@ -5,11 +5,13 @@
 }
 
 .hero__heading {
+  -webkit-text-stroke: 2px black;
   width: 100%;
   text-align: center;
   top: 30%;
   position: absolute;
   font-size: 10.5rem;
+  height: 15%;
   padding: 30px;
   z-index: 1;
 }
