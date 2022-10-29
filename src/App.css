@@ -9,11 +9,11 @@
 .wrapper {
   display: grid;
   grid-template-areas:
-    'header header header header header header '
-    'main main main main main sidebar'
-    'main main main main main sidebar'
-    'footer footer footer footer footer footer';
-  width: 100%;
+    'header header'
+    'main  sidebar'
+    'main  sidebar'
+    'footer footer';
+  grid-template-columns: 6fr 1fr;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 }
 
 main {
-  width: 80vw;
+  width: 100%;
   grid-area: main;
   height: 120vh;
   background-color: var(--main);
