@@ -8,30 +8,31 @@
   align-items: center;
 }
 
-h1 {
+.h1 {
   margin-top: 2rem;
   color: #333;
 }
 
-h3 {
+.h3 {
   color: #333;
 }
 
-h4 {
+.h4 {
   margin-top: 4rem;
   color: #333;
 }
-fieldset {
+.fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-label {
+.label {
   width: 70%;
   margin-top: 2rem;
   font-size: 1.5rem;
+  text-align: left;
 }
 input[type],
 select {
@@ -44,7 +45,7 @@ select {
   box-sizing: border-box;
 }
 
-button {
+.button {
   width: 30%;
   border-radius: 15px;
   background-color: rgba(50, 170, 36, 0.736);
@@ -52,7 +53,7 @@ button {
   transition: all ease-in 0.22s;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
   background-color: rgb(49, 170, 36);
   box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.505);
@@ -73,7 +74,7 @@ button:hover {
   text-align: center;
   width: 100%;
 }
-form {
+.form-element {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -110,7 +111,7 @@ form {
   margin-bottom: 50%;
 }
 
-img {
+.splash-images {
   max-width: 80%;
   border: #ccc 5px solid;
 }
