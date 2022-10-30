@@ -60,9 +60,11 @@ fieldset {
 }
 
 .col-right {
+  margin: 1rem;
   width: 50%;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .name-card {
@@ -93,5 +95,5 @@ fieldset {
 
 .splash {
   transform: rotate(270deg);
-  height: 75%;
+  max-height: 75%;
 }
