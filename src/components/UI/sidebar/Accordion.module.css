@@ -27,6 +27,13 @@
   background-color: #062025;
 }
 
+.title-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
 .accordion__title,
 .accordion__content {
   padding: 1rem;
@@ -50,6 +57,7 @@
   width: 100%;
   background: linear-gradient(to top, var(--sidebar-heading), var(--hero));
   height: 100px;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 700px) {
