@@ -27,6 +27,13 @@
   background-color: #062025;
 }
 
+.title-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
 .accordion__title,
 .accordion__content {
   padding: 1rem;
