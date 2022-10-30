@@ -27,6 +27,7 @@ export default function Accordion(props) {
                 {+currValue === +project.title.slice(-3) && <div className={styles['accordion__content']}><a onClick={
                   event => onSelectProject(+event.target.alt.split(' ')[1])} href='#project'>
                   <img
+                    className={styles['sidebar__thumbnail']}
                     alt={`project ${+project.title.slice(-3)} thumbnail`}
                     src={project.url}
                   /></a></div>}

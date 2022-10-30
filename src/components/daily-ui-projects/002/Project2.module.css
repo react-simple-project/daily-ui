@@ -15,7 +15,7 @@
   padding: 5px 0 15px;
 }
 
-label {
+.label {
   width: 70%;
   color: antiquewhite;
   font-size: 1.5rem;
@@ -31,7 +31,7 @@ select {
   box-sizing: border-box;
 }
 
-button {
+.button {
   margin-top: 1rem;
   width: 50%;
   border-radius: 15px;
@@ -41,7 +41,7 @@ button {
   font-size: 1.3vw;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
   background-color: rgb(49, 170, 36);
   box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.505);
@@ -55,6 +55,7 @@ fieldset {
 }
 
 .form {
+  margin-top: 1.9rem;
   margin-left: 1rem;
   display: flex;
 }

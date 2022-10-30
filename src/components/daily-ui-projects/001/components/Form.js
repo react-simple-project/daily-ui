@@ -4,18 +4,18 @@ export default function Form() {
   return (
     <div className={styles.form}>
 
-      <form>
-        <fieldset>
-          <legend><h4>Fill out the form to sign up</h4></legend>
-          <label>
+      <form className={styles['form-element']}>
+        <fieldset className={styles.fieldset}>
+          <legend><h4 className={styles.h4}>Fill out the form to sign up</h4></legend>
+          <label className={styles.label}>
             First Name:
             <input name='first-name' className={styles.name} type='text' />
           </label>
-          <label>
+          <label className={styles.label}>
             Last Name:
             <input name='last-name' className={styles.name} type='text' />
           </label>
-          <label>
+          <label className={styles.label}>
             Select Adventure Type:
             <select name='departing' className={styles.name} >
               <option>Space</option>
@@ -25,16 +25,16 @@ export default function Form() {
             </select>
           </label>
 
-          <label>
+          <label className={styles.label}>
             Date Departing:
             <input name='departing' className={styles.name} type='date' />
           </label>
-          <label>
+          <label className={styles.label}>
             Date Returning:
             <input name='returning' className={styles.name} type='date' />
           </label>
         </fieldset>
-        <button>Submit</button>
+        <button className={styles.button}>Submit</button>
       </form>
     </div>
   )

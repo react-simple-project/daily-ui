@@ -77,6 +77,11 @@ a {
   flex-direction: row;
 }
 
+.sidebar__thumbnail {
+  max-width: 100%;
+  border: #ccc 5px solid;
+}
+
 @media screen and (max-width: 700px) {
   body {
     font-size: 18px;
