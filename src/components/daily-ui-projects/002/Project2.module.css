@@ -1,0 +1,97 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  border: 1px #333 solid;
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 10px;
+  background-color: rgba(0, 255, 76, 0.711);
+  text-align: center;
+}
+.heading > h1 {
+  padding: 5px 0 15px;
+}
+
+label {
+  width: 70%;
+  color: antiquewhite;
+  font-size: 1.5rem;
+}
+input[type],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 1rem;
+  width: 50%;
+  border-radius: 15px;
+  background-color: rgba(50, 170, 36, 0.736);
+  padding: 8px;
+  transition: all ease-in 0.22s;
+  font-size: 1.3vw;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(49, 170, 36);
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.505);
+  transform: translateY(-4px);
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form {
+  margin-left: 1rem;
+  display: flex;
+}
+
+.col-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.exp-cvc {
+  display: flex;
+  gap: 30px;
+}
+.address {
+  display: flex;
+  gap: 30px;
+}
+
+.location {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  height: 80%;
+  background-color: rgba(0, 0, 255, 0.755);
+  width: 90%;
+}
+
+img {
+  transform: rotate(270deg);
+  height: 75%;
+}
