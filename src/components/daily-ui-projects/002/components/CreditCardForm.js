@@ -59,7 +59,7 @@ export default function CreditCardForm() {
         </fieldset>
         <button>Complete Transaction</button>
       </form>
-      <section className={styles['col-right']}><img alt='Digital wallet splash art' src='https://plus.unsplash.com/premium_photo-1663931932648-cf5545116c35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80' /></section>
+      <section className={styles['col-right']}><img alt='Digital wallet splash art' className={styles.splash} src='https://plus.unsplash.com/premium_photo-1663931932648-cf5545116c35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80' /></section>
     </div>
 
   )
