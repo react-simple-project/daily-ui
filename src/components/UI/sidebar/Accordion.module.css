@@ -50,6 +50,7 @@
   width: 100%;
   background: linear-gradient(to top, var(--sidebar-heading), var(--hero));
   height: 100px;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 700px) {
