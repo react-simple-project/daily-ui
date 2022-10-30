@@ -1,6 +1,22 @@
 .sidebar {
   --sidebar-heading: rgba(231, 111, 81, 0.495);
+  height: 120vh;
+  overflow: scroll;
 }
+
+.sidebar::-webkit-scrollbar {
+  width: 1em;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 .sidebar__heading {
   padding-top: 8rem;
   width: 100%;
@@ -52,8 +68,6 @@
 }
 
 .sidebar__footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background: linear-gradient(to top, var(--sidebar-heading), var(--hero));
   height: 100px;
