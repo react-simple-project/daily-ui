@@ -51,6 +51,7 @@ select {
   background-color: rgba(50, 170, 36, 0.736);
   padding: 15px;
   transition: all ease-in 0.22s;
+  margin-bottom: 10%;
 }
 
 .button:hover {
