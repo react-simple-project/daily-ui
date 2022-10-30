@@ -3,6 +3,9 @@
   height: 120vh;
   overflow: scroll;
 }
+a {
+  min-height: 205px;
+}
 
 .sidebar::-webkit-scrollbar {
   width: 1em;
@@ -64,7 +67,7 @@
 }
 
 .accordion__content--img {
-  max-width: 250px;
+  width: 250px;
 }
 
 .sidebar__footer {
