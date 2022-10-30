@@ -15,7 +15,10 @@ export default function Accordion(props) {
           <div key={project.title}>
             <div className={styles.accordion}>
               <div className={styles['accordion__item']}>
-                <div onClick={event => setValue(event.target.title)}
+                <div onClick={event => {
+                  currValue === event.target.title ? setValue(0) :
+                    setValue(event.target.title)
+                }}
                   title={+project.title.slice(-3)}
                   className={styles['accordion__title']}>
                   <div title={+project.title.slice(-3)}>{project.title}</div>

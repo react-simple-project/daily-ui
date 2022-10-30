@@ -9,12 +9,12 @@
 
 .accordion {
   min-width: 17vw;
-  margin: 2.55rem;
+
   position: relative;
 }
 
 .accordion__title {
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
