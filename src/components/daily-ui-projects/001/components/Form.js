@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <div className={styles.form}>
 
-      <form className={styles['form-element']}>
+      <form onSubmit={(e) => e.preventDefault()} className={styles['form-element']}>
         <fieldset className={styles.fieldset}>
           <legend><h4 className={styles.h4}>Fill out the form to sign up</h4></legend>
           <label className={styles.label}>

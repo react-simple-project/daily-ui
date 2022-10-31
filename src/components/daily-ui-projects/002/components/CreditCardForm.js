@@ -4,7 +4,7 @@ export default function CreditCardForm() {
   return (
     <div className={styles.form}>
 
-      <form className={styles['form-element']}>
+      <form onSubmit={(e) => e.preventDefault()} className={styles['form-element']}>
         <fieldset>
           <div className={styles['name-card']}>
             <label className={styles.label}>
