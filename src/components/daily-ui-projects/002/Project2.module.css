@@ -32,7 +32,7 @@ select {
 }
 
 .button {
-  margin-top: 1rem;
+  margin-top: 2vw;
   width: 50%;
   border-radius: 15px;
   background-color: rgba(50, 170, 36, 0.736);
@@ -52,6 +52,8 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .form {
