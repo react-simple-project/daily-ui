@@ -21,7 +21,7 @@ export default function Accordion(props) {
                 }}
                   title={+project.title.slice(-3)}
                   className={styles['accordion__title']}>
-                  <div title={+project.title.slice(-3)}>{project.title}</div>
+                  <div title={+project.title.slice(-3)}>{project.title + project.name}</div>
                   <div title={+project.title.slice(-3)}>{+currValue === +project.title.slice(-3) ? '-' : '+'}</div>
                 </div>
                 {+currValue === +project.title.slice(-3) && <div className={styles['accordion__content']}><a onClick={
