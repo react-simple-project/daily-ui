@@ -6,8 +6,14 @@ import DisplayArea from './components/DisplayArea'
 export default function Project4() {
   return (
     <ProjectWrapper>
-      <section className={styles.main}>Project4</section>
-    </ProjectWrapper>
+      <section className={styles.main}>
+       
+          <DisplayArea />
+          <Buttons />
+     
+      </section>
+
+    </ProjectWrapper >
 
   )
 }
