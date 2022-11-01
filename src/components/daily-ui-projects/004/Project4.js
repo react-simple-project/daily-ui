@@ -1,7 +1,13 @@
 import React from 'react'
-
+import ProjectWrapper from '../../modular-components/ProjectWrapper'
+import styles from './Project4.module.css'
+import Buttons from './components/Buttons'
+import DisplayArea from './components/DisplayArea'
 export default function Project4() {
   return (
-    <div>Project4</div>
+    <ProjectWrapper>
+      <section className={styles.main}>Project4</section>
+    </ProjectWrapper>
+
   )
 }

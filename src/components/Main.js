@@ -9,10 +9,10 @@ export default function Main(props) {
 
   return (
     <main>
-      {props.currProj === 1 && <Project1 />}
+      {props.currProj === 0 && <Project1 />}
       {props.currProj === 2 && <Project2 />}
       {props.currProj === 3 && <Project3 />}
-      {props.currProj === 4 && <Project4 />}
+      {props.currProj === 1 && <Project4 />}
     </main>
   )
 }
