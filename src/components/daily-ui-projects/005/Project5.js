@@ -7,7 +7,7 @@ import bigImg from './assets/1024x1024_duck.png'
 export default function Project5() {
   return (
     <ProjectWrapper className={styles.main}>
-      <h1>IOS APP ICONS</h1>
+      <h1 className={styles.h1}>IOS APP ICONS</h1>
       <section className={styles.container}>
 
         <img className={styles.small} alt='60 pixel duck' src={smallImg} />
